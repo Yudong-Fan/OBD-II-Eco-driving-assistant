@@ -1,6 +1,6 @@
 # OBD-II-Eco-driving-assistant
 
-This repository contains codes in correspondence to my bachelor thesis for computer science at Vrije Universiteit Amsterdam. Specifications for the files are shown below.
+This repository contains codes and datasets in correspondence to my bachelor thesis for computer science at Vrije Universiteit Amsterdam. 
 
 ## Datasets
 - exp1_14drivers_14cars_dailyRoute.csv -> original data set for the experiment, acquired from the [public dataset](https://github.com/cephasax/OBDdatasets) published by Cephas Barreto. 
@@ -36,3 +36,4 @@ All codes are written in python and jupyter notebook. Jupyter notebook can be in
 After successfully deployed the jupyter notebook, all notebooks can be compiled directly on python3 for a version higher than 3.9. When compiling, make sure that all documents are in the same directory. There is no requirement for the operating system, with the exception of automl_1h.ipynb.
 
 Automl requires python3 and jupyter notebook to be deployed on a Linux operating system. In order to run automl in other operating systems, possible solutions are WSL for windows, virtual machine, docker image, etc.. 
+
