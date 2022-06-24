@@ -22,7 +22,17 @@ This repository contains codes in correspondence to my bachelor thesis for compu
 
 ## Notebooks
 - data_preparation_xfeatures.ipynb -> data wrangling and engineering to produce the corresponding dataset.
-- data_preparation_case_study -> data wrangling and engineering to produce the dataset used in the case study .
+- data_preparation_case_study.ipynb -> data wrangling and engineering to produce the dataset used in the case study .
 
-- modelling_xfeatures.ipynb -> building regression models accordingly.
-- modelling_case_study -> directly in correspondence to the implementations in Chapter 4 of the thesis.
+- modelling_xfeatures.ipynb -> build regression models according to datasets with different number of features.
+- modelling_case_study.ipynb -> directly in correspondence to the implementations in Chapter 4 of the thesis.
+
+- automl_1h.ipynb -> 1h training using automl, the dataset and regressor used can be modified accordingly
+
+## Running environment
+
+All codes are written in python and jupyter notebook. Jupyter notebook can be installed following the [official installation guide](https://jupyter.org/install).  
+
+After successfully deployed the jupyter notebook, all notebooks can be compiled directly on python3 for a version higher than 3.9. When compiling, make sure that all documents are in the same directory. There is no requirement for the operating system, with the exception of automl_1h.ipynb.
+
+Automl requires python3 and jupyter notebook to be deployed on a Linux operating system. In order to run automl in other operating systems, possible solutions are WSL for windows, virtual machine, docker image, etc.. 
