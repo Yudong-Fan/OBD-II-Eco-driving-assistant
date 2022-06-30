@@ -25,7 +25,7 @@ This repository contains codes and datasets in correspondence to my bachelor the
 - data_preparation_case_study.ipynb -> data wrangling and engineering to produce the dataset used in the case study .
 
 - modelling_xfeatures.ipynb -> build regression models according to datasets with different number of features.
-- modelling_case_study.ipynb -> directly in correspondence to the implementations in Chapter 4 of the thesis.
+- modelling_case_study.ipynb -> case study for 19 drivers as mentioned in Chapter 4 of the thesis.
 
 - automl_1h.ipynb -> 1h training using automl, the dataset and regressor used can be modified accordingly
 
