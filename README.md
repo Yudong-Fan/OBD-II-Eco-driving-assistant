@@ -4,7 +4,7 @@ This repository contains codes and datasets in correspondence to my bachelor the
 
 ## Datasets
 - exp1_14drivers_14cars_dailyRoute.csv -> original data set for the experiment, acquired from the [public dataset](https://github.com/cephasax/OBDdatasets) published by Cephas Barreto. 
-- exp2_19drivers-1car-1route.csv -> same as the previous one.
+- exp2_19drivers_1car_1route.csv -> same as the previous one.
 
 - train_shuffled_16features.csv -> the train set with 16 features after initial data engineering.
 - train_shuffled_7features.csv -> the train set with 7 features after selecting important features.
@@ -25,7 +25,7 @@ This repository contains codes and datasets in correspondence to my bachelor the
 - data_preparation_case_study.ipynb -> data wrangling and engineering to produce the dataset used in the case study .
 
 - modelling_xfeatures.ipynb -> build regression models according to datasets with different number of features.
-- modelling_case_study.ipynb -> directly in correspondence to the implementations in Chapter 4 of the thesis.
+- modelling_case_study.ipynb -> case study for 19 drivers as mentioned in Chapter 4 of the thesis.
 
 - automl_1h.ipynb -> 1h training using automl, the dataset and regressor used can be modified accordingly
 
