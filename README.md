@@ -4,7 +4,7 @@ This repository contains codes and datasets in correspondence to my bachelor the
 
 ## Datasets
 - exp1_14drivers_14cars_dailyRoute.csv -> original data set for the experiment, acquired from the [public dataset](https://github.com/cephasax/OBDdatasets) published by Cephas Barreto. 
-- exp2_19drivers_1car_1route.csv -> same as the previous one.
+- exp2_19drivers_1car_1route.csv -> same as the previous one. 
 
 - train_shuffled_16features.csv -> the train set with 16 features after initial data engineering.
 - train_shuffled_7features.csv -> the train set with 7 features after selecting important features.
