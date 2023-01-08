@@ -8,7 +8,7 @@ This repository contains codes and datasets in correspondence to my bachelor the
 
 - train_shuffled_16features.csv -> the train set with 16 features after initial data engineering.
 - train_shuffled_7features.csv -> the train set with 7 features after selecting important features.
-- train_shuffled_43features.csv -> the train set with 43 features after feature crosses. 
+- train_shuffled_43features.csv -> the train set with 43 features after feature crosses.  
 
 - test_shuffled_16features.csv -> the test set with 16 features after initial data engineering.
 - test_shuffled_7features.csv -> the test set with 7 features after selecting important features.
